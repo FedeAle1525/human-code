@@ -1,0 +1,44 @@
+PROBLEMA 1: Fare la spesa seguendo una lista.
+
+Aprire Frigo
+-Controllare articoli mancanti
+Chiudere Frigo
+
+Estrarre telefono dalla tasca
+-Sbloccare telefono
+-Aprire Note
+ *Creare una nota chiamata Lista
+ *Appuntare articoli mancanti
+-Bloccare Telefono
+Riposare Telefono dalla tasca.
+
+SE vestito decentemente
+	esco di casa
+ALTRIMENTI
+	vestirsi decentemente
+	esco di casa
+
+Aprire porta
+-oltrepassare porta
+-chiudere porta
+
+Raggiungere supermercato
+-attraversare strada
+
+Entrare nel supermercato
+-Sbloccare telefono
+-Aprire Note
+ *Aprire Lista
+  PER OGNI ELEMENTO della Lista
+	controllare reparto di riferimento
+	SE Articolo presente
+		prendere articolo
+		togliere articolo dalla Lista
+	ALTRIMENTI
+		passare a articolo successivo
+
+Andare alla cassa
+SE c'è fila
+	attendere turno
+ALTRIMENTI
+	mettere articoli nel rullo
